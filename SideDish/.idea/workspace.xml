@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dafe3fc6-0f3d-48ba-b269-a97bd36a85cc" name="Changes" comment="" />
+    <list default="true" id="5dbb6896-8fdf-489a-a7e9-813dab44f358" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2EPOqq1KfaxCpd1Bd1M0hKrpyZr" />
+  <component name="ProjectId" id="2EPQTLgkv5xcAZW7xb6e5ljhCL2" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dbb6896-8fdf-489a-a7e9-813dab44f358" name="Changes" comment="" />
+      <created>1662494753300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662494753300</updated>
+    </task>
+    <servers />
+  </component>
 </project>

@@ -8,7 +8,7 @@ public class SidedishApplication {
 
 	public static void main(String[] args) {
 
-		Application context =SpringApplication.run(SidedishApplication.class, args);
+		SpringApplication.run(SidedishApplication.class, args);
 	}
 
 }

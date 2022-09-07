@@ -5,7 +5,7 @@ public class SideDishResponseModel extends RepresentationalModel<SideDishRespons
 
     public Integer sideDishId;
 
-    public String name;
+    public String title;
 
     public double price;
 

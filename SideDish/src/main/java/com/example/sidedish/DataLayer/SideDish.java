@@ -18,7 +18,7 @@ public class SideDish {
     @Column(name = "sidedishid", unique = true)
     private Integer sideDishId;
 
-    private String name;
+    private String title;
 
     private double price;
 

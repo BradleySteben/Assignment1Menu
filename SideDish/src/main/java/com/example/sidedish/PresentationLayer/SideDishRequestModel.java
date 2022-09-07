@@ -3,7 +3,7 @@
 @Setter
 public class SideDishRequestModel extends RepresentationModel<SideDishRequestModel> {
 
-    public String name;
+    public String title;
 
     public double price;
 

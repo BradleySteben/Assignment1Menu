@@ -26,7 +26,7 @@ public class SideDishServiceImpl implements SideDishService {
 
     @Override
     public SideDishResponseModel findSideDishById(Integer sideDishId) {
-        SideDish sideDish = sdRep.findNameBySideDishId(gameId);
+        SideDish sideDish = sdRep.findTitleBySideDishId(gameId);
         sdRepM sideDishModel = sdRepM.entityToResponseModel(sideDish);
 
         return sideDishModel;

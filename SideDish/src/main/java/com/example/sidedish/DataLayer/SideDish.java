@@ -14,4 +14,13 @@ public class SideDish {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column(name = "sidedishid", unique = true)
+    private Integer sideDishId;
+
+    private String name;
+
+    private double price;
+
+    private String description;
 }

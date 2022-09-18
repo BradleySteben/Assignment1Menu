@@ -4,4 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DrinkRepository extends JpaRepository<Drink, Long> {
     Drink findById(int id);
+    Drink deleteById(int id);
+
 }

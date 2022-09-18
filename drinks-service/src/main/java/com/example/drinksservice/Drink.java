@@ -65,4 +65,8 @@ public class Drink {
     public void setEnvironment(String environment) {
         this.environment = environment;
     }
+
+    public String toString(){
+        return "name: " + this.name + ", price: " + this.price + ", description: " + this.description;
+    }
 }

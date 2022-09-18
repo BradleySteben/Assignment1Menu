@@ -14,8 +14,12 @@ public class DrinkController {
     @Autowired
     private Environment environment;
 
+    public String hello(String name){
+        return String.format("Hello " + name);
+    }
+
     @GetMapping("/drinks/id/{id}")
-    public Drink retrieveDrinkValue(@PathVariable int id){
+    public String retrieveDrinkValue(@PathVariable int id){
 
         Drink drink = repository.findById(id);
 
@@ -25,6 +29,25 @@ public class DrinkController {
         String port = environment.getProperty("local.server.port");
         drink.setEnvironment(port);
 
-        return drink;
+
+        return drink.getName().toString();
+        //return drink.toString();
     }
+
+    @GetMapping("/drinks/delete/id/{id}")
+    public String deleteById(@PathVariable int id){
+
+        Drink drink = repository.deleteById(id);
+
+        if(drink==null)
+            throw new RuntimeException("Unable to find data on the drink");
+
+        String port = environment.getProperty("local.server.port");
+        drink.setEnvironment(port);
+
+
+        return "deleted";
+        //return drink.toString();
+    }
+
 }
